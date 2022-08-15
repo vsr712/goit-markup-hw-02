@@ -305,8 +305,8 @@ body {
   color: var(--secondary-text-color-dark);
 }
 .images-portfolio-item {
-  background-color: var(--primary-text-color-light: );
-  border: 1px solid var(--section-color-light3: );
+  background-color: var(--primary-text-color-light);
+  border: 1px solid var(--section-color-light3);
 }
 
 /*==========/main-portfolio==========*/
