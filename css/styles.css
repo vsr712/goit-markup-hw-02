@@ -109,7 +109,7 @@ body {
   background: var(--section-color-dark);
 }
 
-.title-light h1 {
+.title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
@@ -152,7 +152,7 @@ body {
   margin: -1px;
 }
 
-.text-item h3 {
+.title-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -160,19 +160,31 @@ body {
   color: var(--primary-text-color-dark);
 }
 
-.text-item p {
+.text {
   font-size: 14px;
   line-height: 1.14px;
   color: var(--secondary-text-color-dark);
 }
 
-.section-images h2,
-.section-photo h2 {
+.title-images,
+.title-photo {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--primary-text-color-dark);
+}
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color-dark);
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color-dark);
 }
 
 .section-photo {
@@ -185,18 +197,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.photo-item h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  color: var(--primary-text-color-dark);
-}
 
-.photo-item p {
-  font-size: 16px;
-  line-height: 1.19;
-  color: var(--secondary-text-color-dark);
-}
 
 /*==========main==========*/
 
@@ -289,7 +290,7 @@ body {
   color: var(--primary-text-color-light);
 }
 
-.images-portfolio-img h2 {
+.tile-portfolio {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -298,7 +299,7 @@ body {
   color: var(--primary-text-color-dark);
 }
 
-.images-portfolio-img p {
+.text-portfolio {
   font-size: 16px;
   line-height: 1.9;
   /* identical to box height, or 188% */
